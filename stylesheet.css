@@ -1,0 +1,691 @@
+/* I define all the default settings in here. */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap");
+
+/* the default font family is karla */
+body {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+/* the headings of the web page 
+   uses different font family */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display", serif;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* -------------------------------------------------------------------*/
+/* ---------------------- the main css contents ----------------------*/
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 88.32%;
+  margin: 0 auto;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.logo {
+  /* the heigh is to fix the image */
+  height: 18px;
+  margin-left: 6.39%;
+  margin-top: 31px;
+}
+
+.menue-logo {
+  margin-top: 24px;
+  margin-right: 6.39%;
+}
+
+.desktop-heading {
+  display: none;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hidden-menu {
+  background: #2c2830;
+  background-image: url("./images/mobile-hidden-menue-pattern.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.hidden-text-box {
+  width: 87.2%;
+  margin: 0 auto;
+  padding-top: 16px;
+  padding-bottom: 299px;
+}
+
+.hidden-text-box p {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 1.36364px;
+  color: #ffffff;
+  margin-top: 24px;
+}
+
+.hidden-button {
+  border: 1.5px solid #ffffff;
+}
+
+.top-section {
+  background: #2d2641;
+  background-image: url("./images/bg-pattern-intro-left-mobile.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0 455px;
+}
+
+.mobile-r-pattern {
+  position: absolute;
+  right: 0%;
+  top: 33%;
+}
+
+.mobile-image {
+  width: 100%;
+  height: 451px;
+  background-image: url("./images/image-intro-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  image-rendering: auto;
+}
+
+.desktop-retangle {
+  display: none;
+}
+
+.desktop-image {
+  display: none;
+}
+
+.top-section-text-block {
+  width: 87.11%;
+  margin: 0 auto;
+  margin-top: 93px;
+  padding-bottom: 93px;
+}
+
+.top-section-text-block > h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.666667px;
+  color: #ffffff;
+}
+
+.top-section-text-block > p {
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.mobile-top-section-button {
+  text-align: center;
+}
+
+.plans-button {
+  border: 1.5px solid #ffffff;
+  width: 49.3%;
+  margin-top: 32px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  background-color: initial;
+}
+
+.bottom-section {
+  padding-top: 140px;
+}
+
+.bottom-section-text-block {
+  width: 87.11%;
+  margin: 0 auto;
+}
+
+.bottom-section-retangle {
+  background: #c396c6;
+  height: 1px;
+  width: 45.8%;
+  margin: 0 auto;
+}
+
+.bottom-section-text-block > h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -0.666667px;
+  color: #2c2830;
+  margin-top: 40px;
+}
+
+.the-differences {
+  margin-top: 80px;
+
+  padding-inline-start: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.difference-block {
+  text-align: center;
+}
+
+.difference-h3 {
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.388889px;
+  color: #2c2830;
+}
+
+.difference-p {
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #837d88;
+}
+
+.the-differences > li:nth-child(2),
+.the-differences > li:nth-child(3) {
+  margin-top: 56px;
+}
+
+.how-we-work {
+  width: 87.11%;
+  background: #2d2641;
+  margin: 0 auto;
+  margin-top: 124px;
+  margin-bottom: 140px;
+
+  background-image: url("./images/bg-pattern-how-we-work-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.how-we-work-texts {
+  width: 85.32%;
+  margin: 0 auto;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.how-we-work-texts > h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.555556px;
+  color: #ffffff;
+}
+
+.hww-buttom {
+  background-color: inherit;
+  border: 1.5px solid #ffffff;
+  width: 63%;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  padding-top: 13px;
+  padding-bottom: 12px;
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+  background: #fafafa;
+  padding-bottom: 88px;
+  background-image: url("./images/bg-pattern-footer-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.footer-logo {
+  margin-left: 34.93%;
+  margin-top: 88px;
+}
+
+.social-icons {
+  width: 38.4%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.footer-seperator {
+  width: 87.2%;
+  height: 1px;
+  background: #dadada;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.footer-navigation-links {
+  width: 87.2%;
+  margin: 0 auto;
+  padding-inline-start: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sublinks {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sublinks-main {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #837d88;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.sublinks-secondary {
+  padding-inline-start: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.sublinks-secondary li {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #2d2641;
+  margin-top: 16px;
+}
+
+/* ----------------------------------------------------- */
+/*       the following is the responsived design
+                   for the desktop */
+/* ------------------------------------------------------ */
+
+@media screen and (min-width: 1440px) {
+  body {
+    width: 1440px;
+    margin: 0 auto;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .heading {
+    justify-content: unset;
+    margin-bottom: 16px;
+  }
+
+  .menue-logo {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 11.67%;
+    margin-top: 31px;
+  }
+
+  .desktop-heading {
+    display: flex;
+    margin-top: 21px;
+    margin-left: 38.11%;
+  }
+
+  .desktop-heading p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #837d88;
+  }
+
+  .desktop-heading > p:nth-child(1) {
+    margin-right: 25px;
+    margin-top: 13px;
+  }
+
+  .desktop-heading > p:nth-child(2) {
+    margin-right: 26px;
+    margin-top: 13px;
+  }
+
+  .desktop-heading > p:nth-child(3) {
+    margin-right: 33px;
+    margin-top: 13px;
+  }
+
+  .desktop-heading p:hover {
+    color: #2c2830;
+    cursor: pointer;
+  }
+
+  .header-button {
+    width: 146px;
+    height: 40px;
+    border: 1.5px solid #2c2830;
+    background: #ffffff;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #2c2830;
+  }
+
+  .header-button:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background: #2c2830;
+  }
+
+  .header-button p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #2c2830;
+    margin-top: 13px;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  .hidden-menu {
+    display: none;
+  }
+
+  .top-section {
+    background-image: url("./images/bg-pattern-intro-left-desktop.svg"),
+      url("./images/bg-pattern-intro-right-desktop.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 2px 430px, 1005px -80px;
+
+    padding-bottom: 44px;
+  }
+
+  .mobile-r-pattern {
+    display: none;
+  }
+
+  .mobile-image {
+    display: none;
+  }
+
+  /* reset the text block so
+  it doesn't affect the top section */
+  .top-section-text-block {
+    margin-top: 0;
+  }
+
+  /* to show the desktop image */
+  .desktop-image {
+    display: unset;
+    position: absolute;
+    top: 185px;
+    left: 50.72%;
+  }
+
+  .desktop-retangle {
+    display: unset;
+  }
+
+  .desktop-retangle img {
+    margin-left: 11.45%;
+    padding-top: 105px;
+  }
+
+  .top-section-text-block {
+    width: 37.5%;
+    margin-left: 11.45%;
+    padding-top: 64px;
+  }
+
+  .top-section-text-block > h2 {
+    font-size: 72px;
+    line-height: 64px;
+    text-align: left;
+    letter-spacing: -1px;
+  }
+
+  .top-section-text-block > p {
+    text-align: left;
+  }
+
+  .mobile-top-section-button {
+    text-align: left;
+  }
+
+  .plans-button {
+    width: 27.6%;
+    margin: 0;
+    margin-top: 24px;
+  }
+
+  .plans-button:hover {
+    cursor: pointer;
+    background: #ffffff;
+    color: #2c2830;
+  }
+
+  .bottom-section {
+    background-image: url("./images/bg-pattern-intro-left-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: 0 -170px;
+  }
+
+  .bottom-section-text-block {
+    width: 77.09%;
+  }
+
+  .bottom-section-retangle {
+    margin-top: 165px;
+    margin-left: 0;
+    width: 13.6%;
+  }
+
+  .bottom-section-text-block > h2 {
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: unset;
+    margin-top: 63px;
+  }
+
+  .the-differences {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 96px;
+  }
+
+  .difference-block {
+    text-align: left;
+    margin-right: 30px;
+    width: 31.53%;
+  }
+
+  .difference-h3,
+  .difference-p {
+    text-align: left;
+  }
+
+  .the-differences > li:nth-child(2),
+  .the-differences > li:nth-child(3) {
+    margin-top: 0;
+  }
+
+  .how-we-work {
+    width: 77.09%;
+    margin-top: 158px;
+    margin-bottom: 150px;
+    background-image: url("./images/bg-pattern-how-we-work-desktop.svg");
+  }
+
+  .how-we-work-texts {
+    display: flex;
+    width: 100%;
+    padding-top: 69px;
+    padding-bottom: 69px;
+    margin-left: 81px;
+  }
+
+  .how-we-work-texts > h2 {
+    text-align: left;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.777778px;
+    width: 42.79%;
+  }
+
+  .mobile-top-section-button:nth-child(2) {
+    margin-left: 28.3%;
+  }
+
+  .hww-buttom {
+    width: 160px;
+    height: 40px;
+    margin-top: 36px;
+  }
+
+  .hww-buttom:hover {
+    cursor: pointer;
+    color: #2c2830;
+    background: #ffffff;
+  }
+
+  footer {
+    width: 100%;
+    padding-bottom: 64px;
+    background: url("./images/bg-pattern-footer-desktop.svg") left top no-repeat
+      rgb(250, 250, 250);
+  }
+
+  .desktop-footer-seperator {
+    width: 77.09%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-logo {
+    margin-top: 67px;
+    margin-left: unset;
+  }
+
+  .social-icons {
+    margin: unset;
+    width: 12.97%;
+    margin-top: 64px;
+  }
+
+  .social-icons img:hover {
+    background: #2c2830;
+    cursor: pointer;
+  }
+
+  .footer-seperator {
+    width: 77.09%;
+    margin-top: 36px;
+  }
+
+  .footer-navigation-links {
+    width: 77.09%;
+    display: flex;
+  }
+
+  .sublinks {
+    width: 22.97%;
+    margin: unset;
+  }
+
+  .sublinks-main {
+    text-align: left;
+    margin-top: 48px;
+  }
+
+  .sublinks-secondary li {
+    text-align: left;
+  }
+
+  .sublinks-secondary li:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+  }
+
+  .footer-navigation-links .sublinks:nth-child(2),
+  .footer-navigation-links .sublinks:nth-child(3),
+  .footer-navigation-links .sublinks:nth-child(4) {
+    margin-left: 2.7%;
+  }
+}
